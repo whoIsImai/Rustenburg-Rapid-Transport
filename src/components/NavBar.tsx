@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import {Link} from 'react-router-dom'
 import logo from '../assets/logo.png'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export default function NavBar(){
     const [menuOpen, setMenuOpen] = useState(false)
