@@ -14,7 +14,7 @@ export default function Footer() {
                 <span className="text-lg font-bold">Rustenburg Rapid Transport</span>
               </div>
               <p className="text-sm text-white/80 mt-4">
-                Providing reliable transportation services across Rustenburg and beyond since 1995.
+                Providing reliable transportation services across Rustenburg and beyond.
               </p>
             </div>
             <div>
@@ -95,7 +95,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="border-t border-white/20 mt-8 pt-8 text-center text-sm text-white/60">
-            <p>&copy; {new Date().getFullYear()} Rustenburg Express. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Rustenburg Rapid Transport. All rights reserved.</p>
           </div>
         </div>
       </footer>
