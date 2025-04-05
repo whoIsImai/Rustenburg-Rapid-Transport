@@ -1,14 +1,16 @@
+import logo from "../assets/logo.png";
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react";
+import {Link} from "react-router-dom";
 
 
 export default function Footer() {
-
     return(
         <footer className="bg-[#006400] text-white py-12">
         <div className="container px-4 md:px-6">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Bus className="h-6 w-6" />
+                <img src={logo} className="h-6 w-6" />
                 <span className="text-xl font-bold">Rustenburg Express</span>
               </div>
               <p className="text-sm text-white/80 mt-4">
@@ -19,27 +21,27 @@ export default function Footer() {
               <h3 className="text-lg font-medium mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="/" className="text-sm text-white/80 hover:text-white transition-colors">
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link href="#routes" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="/routes" className="text-sm text-white/80 hover:text-white transition-colors">
                     Routes & Schedules
                   </Link>
                 </li>
                 <li>
-                  <Link href="#fleet" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="#fleet" className="text-sm text-white/80 hover:text-white transition-colors">
                     Our Fleet
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="/Book" className="text-sm text-white/80 hover:text-white transition-colors">
                     Book Online
                   </Link>
                 </li>
                 <li>
-                  <Link href="#about" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="/about" className="text-sm text-white/80 hover:text-white transition-colors">
                     About Us
                   </Link>
                 </li>
@@ -49,27 +51,27 @@ export default function Footer() {
               <h3 className="text-lg font-medium mb-4">Services</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
                     Intercity Travel
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
                     Charter Services
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
                     Package Delivery
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
                     Corporate Travel
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
                     School Transport
                   </Link>
                 </li>
@@ -92,15 +94,15 @@ export default function Footer() {
                 </li>
               </ul>
               <div className="flex gap-4 mt-4">
-                <Link href="#" className="text-white/80 hover:text-white transition-colors">
+                <Link to="#" className="text-white/80 hover:text-white transition-colors">
                   <Facebook className="h-5 w-5" />
                   <span className="sr-only">Facebook</span>
                 </Link>
-                <Link href="#" className="text-white/80 hover:text-white transition-colors">
+                <Link to="#" className="text-white/80 hover:text-white transition-colors">
                   <Twitter className="h-5 w-5" />
                   <span className="sr-only">Twitter</span>
                 </Link>
-                <Link href="#" className="text-white/80 hover:text-white transition-colors">
+                <Link to="https://www.instagram.com/" className="text-white/80 hover:text-white transition-colors">
                   <Instagram className="h-5 w-5" />
                   <span className="sr-only">Instagram</span>
                 </Link>
