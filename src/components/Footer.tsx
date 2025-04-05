@@ -11,7 +11,7 @@ export default function Footer() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <img src={logo} className="h-6 w-6" />
-                <span className="text-xl font-bold">Rustenburg Express</span>
+                <span className="text-lg font-bold">Rustenburg Rapid Transport</span>
               </div>
               <p className="text-sm text-white/80 mt-4">
                 Providing reliable transportation services across Rustenburg and beyond since 1995.
@@ -50,21 +50,6 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-medium mb-4">Services</h3>
               <ul className="space-y-2">
-                <li>
-                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
-                    Intercity Travel
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
-                    Charter Services
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
-                    Package Delivery
-                  </Link>
-                </li>
                 <li>
                   <Link to="#" className="text-sm text-white/80 hover:text-white transition-colors">
                     Corporate Travel

@@ -3,6 +3,9 @@ import Footer from '../components/Footer'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Clock, MapPin, ChevronRight } from "lucide-react"
+import Orange_Taxi from '../assets/orange taxi.jpg'
+import White_Taxi from '../assets/white taxi.jpg'
+import Bus from '../assets/bus.jpg'
 
 
 export default function Home(){
@@ -134,27 +137,31 @@ export default function Home(){
                     <div className="mx-auto grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mt-12">
                     {[
                         {
-                        name: "Luxury Coach",
+                        name: "Mini Bus",
                         features: ["Reclining seats", "Air conditioning", "Onboard WiFi", "USB charging ports"],
-                        capacity: "52 passengers",
+                        capacity: "15 passengers",
+                        image: Orange_Taxi
                         },
                         {
                         name: "Standard Coach",
                         features: ["Comfortable seating", "Air conditioning", "Luggage storage", "Onboard restroom"],
                         capacity: "60 passengers",
+                        image: Bus
                         },
                         {
                         name: "Mini Bus",
                         features: ["Agile transport", "Air conditioning", "Comfortable seating", "Perfect for groups"],
-                        capacity: "22 passengers",
-                        },
+                        capacity: "15 passengers",
+                        image: White_Taxi
+                        }
                     ].map((bus, index) => (
                         <div key={index} className="overflow-hidden rounded-lg border bg-white shadow-sm">
                         <div className="relative h-48">
                             <img
-                            src={`/placeholder.svg?height=300&width=500&text=Bus+${index + 1}`}
+                            src={bus.image}
                             alt={bus.name}
-                            className="object-cover"
+                            className="h-50 w-full object-cover transition-transform duration-300 hover:scale-105"
+                            loading="lazy"
                             />
                         </div>
                         <div className="p-6">
