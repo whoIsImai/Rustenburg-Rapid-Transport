@@ -15,7 +15,7 @@ export default function NavBar(){
                                 src={logo}
                                 alt="Rustenburg Express Bus"
                                  className="h-9 text-[#006400]" />
-                    <span className="text-xl font-bold text-[#006400]">Rustenburg Express</span>
+                    <span className="text-xl font-bold text-[#006400]">Rustenburg Rapid Transport</span>
                 </div>
                 <nav className="hidden md:flex gap-6">
                     <Link to="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
@@ -24,14 +24,11 @@ export default function NavBar(){
                     <Link to="#routes" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
                     Routes
                     </Link>
-                    <Link to="#fleet" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
-                    Our Fleet
-                    </Link>
                     <Link to="#about" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
                     About Us
                     </Link>
                     <Link to="#contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
-                    Contact
+                    Contact Us
                     </Link>
                 </nav>
             <div className="flex items-center gap-4">
@@ -62,9 +59,8 @@ export default function NavBar(){
           <div className="md:hidden bg-white border-t p-4">
             <nav className="flex flex-col gap-2">
               <a href="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Home</a>
-              <a href="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">About</a>
-              <a href="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Services</a>
-              <a href="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Contact</a>
+              <a href="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">About Us</a>
+              <a href="#" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Contact Us</a>
               <Button className="mt-2 bg-[#006400] hover:bg-[#004d00] text-white">Book Now</Button>
             </nav>
           </div>
