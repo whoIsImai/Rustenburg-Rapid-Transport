@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import Link from "next/link"
+import {Link} from "react-router-dom"
 import { Eye, EyeOff, Lock, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -49,7 +49,7 @@ export default function SignInPage() {
             <div className="space-y-2">
               <div className="flex items-center justify-between">
                 <Label htmlFor="password">Password</Label>
-                <Link href="#" className="text-sm text-orange-500 hover:text-orange-600">
+                <Link to="#" className="text-sm text-orange-500 hover:text-orange-600">
                   Forgot password?
                 </Link>
               </div>
@@ -89,7 +89,7 @@ export default function SignInPage() {
             </Button>
             <p className="mt-4 text-center text-sm">
               Don&apos;t have an account?{" "}
-              <Link href="#" className="text-orange-500 hover:text-orange-600 font-medium">
+              <Link to="#" className="text-orange-500 hover:text-orange-600 font-medium">
                 Sign up
               </Link>
             </p>
