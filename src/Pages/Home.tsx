@@ -11,31 +11,31 @@ export default function Home(){
         <>
             <main className="flex-1">
                 <NavBar/>
-                <section className="relative">
+               <section className="relative">
                 <div className="absolute inset-0 bg-black/60 z-10" />
                     <div className="relative h-[300px] md:h-[500px]">
                             
                     </div>
-                <div className="container absolute inset-0 z-20 flex flex-col items-center justify-center text-center text-white">
-                    <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-                    Travel Comfortably Across Rustenburg
-                    </h1>
-                    <p className="mt-4 max-w-[700px] text-lg text-white/90">
-                    Reliable, safe and comfortable bus services connecting Rustenburg and beyond
-                    </p>
-                    <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                    <Button size="lg" className="bg-[#FF8C00] hover:bg-[#e67e00] text-white">
-                        Book Your Trip
-                    </Button>
-                    <Button
-                        size="lg"
-                        variant="outline"
-                        className="border-white bg-white text-[#006400]"
-                    >
-                        View Schedules
-                    </Button>
+                    <div className="container absolute inset-0 z-20 flex flex-col items-center justify-center text-center text-white">
+                        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+                        Travel Comfortably Across Rustenburg
+                        </h1>
+                        <p className="mt-4 max-w-[700px] text-lg text-white/90">
+                        Reliable, safe and comfortable bus services connecting Rustenburg and beyond
+                        </p>
+                        <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                            <Button size="lg" className="bg-[#FF8C00] hover:bg-[#e67e00] text-white">
+                                Book Your Trip
+                            </Button>
+                            <Button
+                                size="lg"
+                                variant="outline"
+                                className="border-white bg-white text-[#006400]"
+                            >
+                                View Schedules
+                            </Button>
+                        </div>
                     </div>
-                </div>
                 </section>
             
                 {/* Services Section */}
