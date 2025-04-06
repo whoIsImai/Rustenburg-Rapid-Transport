@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="max-w-md w-full text-center space-y-8">
         <div className="space-y-2">
           <h1 className="text-orange-500 text-9xl font-bold">404</h1>
-          <h2 className="text-2xl font-semibold">Page not found</h2>
+          <h2 className="text-2xl font-semibold">Page not found because it has not been developed yet.</h2>
           <p className="text-emerald-300">Sorry, we couldn't find the page you're looking for.</p>
         </div>
 

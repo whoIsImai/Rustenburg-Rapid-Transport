@@ -62,7 +62,7 @@ export default function NavBar(){
               <a href="/about" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">About Us</a>
               <a href="/contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Contact Us</a>
               <a href="/routes" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Routes</a>
-              <Link className="mt-2 bg-[#006400] hover:bg-[#004d00] text-white text-sm font-medium text-center" to="/SignIn">Book Now</Link>
+              <Link className="mt-2 bg-[#006400] hover:bg-[#004d00] text-white text-sm font-medium text-center p-1" to="/SignIn">Book Now</Link>
             </nav>
           </div>
         )}
