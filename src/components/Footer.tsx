@@ -31,11 +31,6 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/fleet" className="text-sm text-white/80 hover:text-white transition-colors">
-                    Our Fleet
-                  </Link>
-                </li>
-                <li>
                   <Link to="/book" className="text-sm text-white/80 hover:text-white transition-colors">
                     Book Online
                   </Link>
