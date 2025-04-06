@@ -60,7 +60,7 @@ export default function NavBar(){
             <nav className="flex flex-col gap-2">
               <a href="/" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Home</a>
               <a href="/about" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">About Us</a>
-              <a href="/contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Contact Us</a>
+              <Link to="/Contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Contact Us</Link>
               <a href="/routes" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Routes</a>
               <Link className="mt-2 bg-[#006400] hover:bg-[#004d00] text-white text-sm font-medium text-center p-1" to="/SignIn">Book Now</Link>
             </nav>
