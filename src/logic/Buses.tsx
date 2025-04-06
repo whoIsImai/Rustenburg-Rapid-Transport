@@ -1,6 +1,6 @@
 import Orange_Taxi from '../assets/orange taxi.jpg'
 import White_Taxi from '../assets/white taxi.jpg'
-import Bus from '../assets/bus.jpg'
+import Bus from '../assets/Bus.jpg'
 
 export default function Buses(){
 
