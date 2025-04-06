@@ -47,7 +47,7 @@ export default function Home(){
                     <div className="flex flex-col items-center justify-center space-y-4 text-center">
                     <div className="space-y-2">
                         <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#006400]">
-                        Our Popular Routes
+                        Our New Routes
                         </h2>
                         <p className="max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                         Connecting Rustenburg to major destinations with comfort and reliability
@@ -57,37 +57,37 @@ export default function Home(){
                     <div className="mx-auto grid gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-5xl lg:grid-cols-3 mt-12">
                     {[
                         {
-                        title: "Rustenburg to Pretoria",
+                        title: "JST Hospital",
                         description: "Daily departures every hour from 5:00 AM to 8:00 PM",
                         price: "R120",
                         time: "1h 30m",
                         },
                         {
-                        title: "Rustenburg to Johannesburg",
+                        title: "Greystone Crossing",
                         description: "Multiple daily departures with express and standard options",
                         price: "R150",
                         time: "2h 15m",
                         },
                         {
-                        title: "Rustenburg to Sun City",
+                        title: "SARS",
                         description: "Convenient transfers to the popular resort destination",
                         price: "R80",
                         time: "45m",
                         },
                         {
-                        title: "Rustenburg to Mafikeng",
+                        title: "Bojanala Platinum",
                         description: "Regular service connecting to the North West capital",
                         price: "R180",
                         time: "2h 30m",
                         },
                         {
-                        title: "Rustenburg to Brits",
+                        title: "Civic Center",
                         description: "Frequent daily service for commuters and travelers",
                         price: "R60",
                         time: "40m",
                         },
                         {
-                        title: "Rustenburg Local Routes",
+                        title: " Selly Park Secondary Schools",
                         description: "Connecting all major areas within Rustenburg",
                         price: "From R25",
                         time: "Varies",
