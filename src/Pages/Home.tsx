@@ -201,7 +201,7 @@ export default function Home(){
                 <section className="py-12 md:py-24 bg-[#FF8C00]">
                 <div className="container px-4 md:px-6 text-center">
                     <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white">
-                    Ready to Travel with Rustenburg Express?
+                    Ready to Travel with Yarona?
                     </h2>
                     <p className="mt-4 text-xl text-white/90 max-w-[700px] mx-auto">
                     Book your next journey with us and experience comfort, reliability and safety.
