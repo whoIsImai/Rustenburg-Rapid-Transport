@@ -1,10 +1,13 @@
 import { Button } from "@/components/ui/button"
 import {MapPin, Phone, Mail, Facebook, Twitter, Instagram} from "lucide-react"
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 export default function Contact(){
 
     return(
         <section className="py-12 md:py-24 bg-white" id="contact">
+           <NavBar/>
         <div className="container px-4 md:px-6">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-start">
             <div className="space-y-4">
@@ -130,6 +133,7 @@ export default function Contact(){
             </div>
           </div>
         </div>
+        <Footer/>
       </section>
     )
 }
