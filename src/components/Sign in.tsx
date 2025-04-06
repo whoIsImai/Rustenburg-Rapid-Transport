@@ -18,8 +18,6 @@ export default function SignInPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle sign in logic here
-    console.log({ email, password })
   }
 
   return (
