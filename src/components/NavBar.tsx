@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import {Link} from 'react-router-dom'
 import logo from '../assets/logo.png'
 import { useState } from 'react'
+import SignInPage from "./Sign in"
 
 export default function NavBar(){
     const [menuOpen, setMenuOpen] = useState(false)
@@ -32,7 +33,7 @@ export default function NavBar(){
                     </Link>
                 </nav>
             <div className="flex items-center gap-4">
-                <Button className="hidden md:flex bg-[#006400] hover:bg-[#004d00] text-white">Book Now</Button>
+                <Button className="hidden md:flex bg-[#006400] hover:bg-[#004d00] text-white" onClick={SignInPage}>Book Now</Button>
                 <Button variant="outline" size="icon" className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +63,7 @@ export default function NavBar(){
               <a href="/about" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">About Us</a>
               <a href="/contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Contact Us</a>
               <a href="/routes" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">Routes</a>
-              <Button className="mt-2 bg-[#006400] hover:bg-[#004d00] text-white">Book Now</Button>
+              <Button className="mt-2 bg-[#006400] hover:bg-[#004d00] text-white" onClick={SignInPage}>Book Now</Button>
             </nav>
           </div>
         )}
