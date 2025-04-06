@@ -90,13 +90,6 @@ export default function Home(){
                     <Button size="lg" className="bg-white text-[#006400] hover:bg-white/90">
                         Book Online Now
                     </Button>
-                    <Button
-                        size="lg"
-                        variant="outline"
-                        className="border-white hover:bg-white text-[#FF8C00]"
-                    >
-                        Download Our App
-                    </Button>
                     </div>
                 </div>
                 </section>
