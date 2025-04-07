@@ -27,7 +27,7 @@ export default function NavBar(){
                     <Link to="/about" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
                     About Us
                     </Link>
-                    <Link to="/contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
+                    <Link to="/Contact" className="text-sm font-medium hover:text-[#FF8C00] transition-colors">
                     Contact Us
                     </Link>
                 </nav>

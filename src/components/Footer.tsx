@@ -41,7 +41,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Cbout" className="text-sm text-white/80 hover:text-white transition-colors">
+                  <Link to="/Contact" className="text-sm text-white/80 hover:text-white transition-colors">
                     Contact Us
                   </Link>
                 </li>
