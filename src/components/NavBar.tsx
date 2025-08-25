@@ -5,7 +5,6 @@ import { useState } from 'react'
 
 export default function NavBar(){
     const [menuOpen, setMenuOpen] = useState(false)
-
     return(
     <div className="flex flex-col">
         <header className="sticky top-0 z-50 w-full border-b bg-green-50 shadow-md">
